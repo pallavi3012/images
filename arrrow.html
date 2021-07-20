@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--arror function return value by default-->
+    <p id="demo"></p>
+    <!--passing parameter-->
+    <p id="demo1"></p>
+</body>
+<script>
+    
+    hello = () => "hello";
+document.getElementById("demo").innerHTML= "hello";
+
+hello1 = function(name){
+    return "hello  " + name;
+}
+document.getElementById("demo1").innerHTML=hello1('pallavi');
+</script>
+</html>
